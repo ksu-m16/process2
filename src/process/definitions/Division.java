@@ -4,16 +4,16 @@ import process.core.AProcessStep;
 import process.core.IProcessData;
 
 /**
-* Class performs division
-*
-*/
-public class Division extends AProcessStep{
+ * Class performs division
+ * 
+ */
+public class Division extends AProcessStep {
 
 	/**
-	* performs division
-	*
-	* @throws Exception
-	*/
+	 * performs division
+	 * 
+	 * @throws Exception
+	 */
 	@Override
 	public void perform() throws Exception {
 		IProcessData input = getInput();

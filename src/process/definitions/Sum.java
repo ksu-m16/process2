@@ -4,16 +4,16 @@ import process.core.AProcessStep;
 import process.core.IProcessData;
 
 /**
-* Class performs addition 
-*
-*/
-public class Sum extends AProcessStep{
+ * Class performs addition
+ * 
+ */
+public class Sum extends AProcessStep {
 
 	/**
-	* performs addition 
-	*
-	* @throws Exception
-	*/
+	 * performs addition
+	 * 
+	 * @throws Exception
+	 */
 	@Override
 	public void perform() throws Exception {
 		IProcessData input = getInput();

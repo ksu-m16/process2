@@ -4,16 +4,16 @@ import process.core.AProcessStep;
 import process.core.IProcessData;
 
 /**
-* Class performs subtraction
-*
-*/
+ * Class performs subtraction
+ * 
+ */
 public class Difference extends AProcessStep {
 
 	/**
-	* performs subtraction
-	* 
-	* @throws Exception
-	*/
+	 * performs subtraction
+	 * 
+	 * @throws Exception
+	 */
 	@Override
 	public void perform() throws Exception {
 		IProcessData input = getInput();
