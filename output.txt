@@ -1,0 +1,2 @@
+result1: 3.0
+result2: 0.5
